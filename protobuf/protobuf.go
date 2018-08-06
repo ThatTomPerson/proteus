@@ -1,4 +1,4 @@
-package protobuf // import "gopkg.in/src-d/proteus.v1/protobuf"
+package protobuf // import "gitlab.com/ThatTomPerson/proteus/protobuf"
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"gopkg.in/src-d/proteus.v1/scanner"
+	"gitlab.com/ThatTomPerson/proteus/scanner"
 )
 
 // Package represents an unique .proto file with its own package definition.

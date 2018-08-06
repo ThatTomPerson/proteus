@@ -3,7 +3,7 @@ package protobuf
 import (
 	"testing"
 
-	"gopkg.in/src-d/proteus.v1/scanner"
+	"gitlab.com/ThatTomPerson/proteus/scanner"
 
 	"github.com/stretchr/testify/require"
 )

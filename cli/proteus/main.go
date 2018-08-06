@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"gopkg.in/src-d/proteus.v1"
-	"gopkg.in/src-d/proteus.v1/protobuf"
-	"gopkg.in/src-d/proteus.v1/report"
+	"gitlab.com/ThatTomPerson/proteus"
+	"gitlab.com/ThatTomPerson/proteus/protobuf"
+	"gitlab.com/ThatTomPerson/proteus/report"
 
 	"gopkg.in/urfave/cli.v1"
 )
@@ -24,7 +24,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "proteus"
 	app.Description = "Proteus generates code and protobuffer 3 proto files while keeping your Go source code as the source of truth."
-	app.Version = "1.0.0"
+	app.Version = "1.3.3"
 
 	baseFlags := []cli.Flag{
 		cli.StringSliceFlag{

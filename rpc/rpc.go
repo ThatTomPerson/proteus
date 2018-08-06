@@ -1,4 +1,4 @@
-package rpc // import "gopkg.in/src-d/proteus.v1/rpc"
+package rpc // import "gitlab.com/ThatTomPerson/proteus/rpc"
 
 import (
 	"fmt"
@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gopkg.in/src-d/proteus.v1/protobuf"
-	"gopkg.in/src-d/proteus.v1/report"
+	"gitlab.com/ThatTomPerson/proteus/protobuf"
+	"gitlab.com/ThatTomPerson/proteus/report"
 
 	"gopkg.in/src-d/go-parse-utils.v1"
 )

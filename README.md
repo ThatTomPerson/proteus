@@ -18,7 +18,7 @@ You can read more about the motivations behind building proteus in [this blog po
 ### Install
 
 ```
-go get -v gopkg.in/src-d/proteus.v1/...
+go get -v gitlab.com/ThatTomPerson/proteus/...
 ```
 
 ### Requirements

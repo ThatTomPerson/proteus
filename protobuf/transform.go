@@ -12,8 +12,8 @@ import (
 
 	"github.com/gogo/protobuf/protoc-gen-gogo/generator"
 
-	"gopkg.in/src-d/proteus.v1/report"
-	"gopkg.in/src-d/proteus.v1/scanner"
+	"gitlab.com/ThatTomPerson/proteus/report"
+	"gitlab.com/ThatTomPerson/proteus/scanner"
 )
 
 // Transformer is in charge of converting scanned Go entities to protobuf
@@ -106,7 +106,7 @@ func (t *Transformer) transformFunc(pkg *Package, f *scanner.Func, names nameSet
 			return nil
 		}
 
-		name = fmt.Sprintf("%s_%s", n.Name, name)
+		name = fmt.Sprintf("%s", name)
 		receiverName = n.Name
 	}
 
